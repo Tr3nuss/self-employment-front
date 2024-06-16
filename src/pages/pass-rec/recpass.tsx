@@ -1,5 +1,5 @@
 import { FC } from "react";
-import "./passwordRecovery.css";
+import "./recpass.css";
 import { Box, TextField, Button } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 
