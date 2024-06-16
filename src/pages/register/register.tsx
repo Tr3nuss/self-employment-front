@@ -6,6 +6,17 @@ import "./register.css";
 import { IRegisterData } from "../../shared/types/registerData";
 
 export const RegisterPage: FC = () => {
+  let firstCheckbox: any,
+    secondCheckbox: any = useRef<HTMLInputElement>(null);
+
+  const [firstIsChecked, setFirstIsChecked] = useState<boolean>(false);
+  const [secondIsChecked, setSecondIsChecked] = useState<boolean>(false);
+
+  const submitColChanging = () => {
+    setFirstIsChecked(!firstIsChecked);
+    setSecondIsChecked(!secondIsChecked);
+  };
+
   async function sendData(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
 
@@ -74,13 +85,21 @@ export const RegisterPage: FC = () => {
           />
 
           <Box sx={{ display: "flex", alignItems: "center", gap: "30px" }}>
-            <Checkbox />
+            <Checkbox
+              checked={firstIsChecked}
+              ref={firstCheckbox}
+              onClick={submitColChanging}
+            />
             <Link to="*" className="accept-service-link">
               Я принимаю условия сервиса
             </Link>
           </Box>
           <Box sx={{ display: "flex", alignItems: "center", gap: "30px" }}>
-            <Checkbox />
+            <Checkbox
+              checked={secondIsChecked}
+              ref={secondCheckbox}
+              onClick={submitColChanging}
+            />
             <Link to="*" className="accept-policy-link">
               Я согласен(а) с политикой конфедициальности
             </Link>
