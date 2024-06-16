@@ -1,0 +1,17 @@
+.register-input-field {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.register-title {
+  display: flex;
+  justify-content: center;
+}
+
+.accept-service-link,
+.accept-policy-link {
+  text-decoration: none;
+  font-size: 16px;
+  color: #000;
+}
