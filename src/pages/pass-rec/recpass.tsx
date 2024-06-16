@@ -1,12 +1,16 @@
 import { FC } from "react";
 import "./passwordRecovery.css";
 import { Box, TextField, Button } from "@mui/material";
+import { useNavigate } from "react-router-dom";
 
 export const RecPasswordPage: FC = () => {
   const sendIntervalMessageSeconds: number = 120;
   const sendIntervalToMailMessage: string = `${
     (sendIntervalMessageSeconds / 60) % 60
   }:00`;
+
+  const navigate = useNavigate();
+  const returnOnAuth = () => navigate(-1);
 
   return (
     <>
@@ -55,7 +59,9 @@ export const RecPasswordPage: FC = () => {
             </p>
           </Box>
 
-          <p className="return-on-auth">Назад</p>
+          <p onClick={returnOnAuth} className="return-on-auth">
+            Назад
+          </p>
         </form>
       </Box>
     </>
