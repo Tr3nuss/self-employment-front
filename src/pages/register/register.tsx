@@ -1,9 +1,38 @@
-import { FC } from "react";
 import { Box, Checkbox, TextField, Button } from "@mui/material";
 import { Link } from "react-router-dom";
+import axios from "axios";
+import { FC, FormEvent, useRef, useState } from "react";
 import "./register.css";
+import { IRegisterData } from "../../shared/types/registerData";
 
 export const RegisterPage: FC = () => {
+  async function sendData(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+
+    const sendFormData = new FormData(event.currentTarget);
+
+    const registerData: IRegisterData = {
+      username: sendFormData.get("username") as string,
+      email: sendFormData.get("email") as string,
+      password: sendFormData.get("password") as string,
+      confirmPassword: sendFormData.get("confirmPassword") as string,
+    };
+
+    try {
+      const response = await axios.post(
+        "http://127.0.0.1:8000/api/v1/auth/users/",
+        registerData
+      );
+      console.log(response.data);
+
+      if (!(registerData.password === registerData.confirmPassword)) {
+        throw new Error("Пожалуйста введите нужный пароль");
+      }
+    } catch (e) {
+      alert(e);
+    }
+  }
+
   return (
     <>
       <Box
@@ -14,7 +43,7 @@ export const RegisterPage: FC = () => {
           minHeight: "100vh",
         }}
       >
-        <form className="register-input-field">
+        <form onSubmit={sendData} className="register-input-field">
           <h2 className="register-title">Регистрация</h2>
           <TextField
             sx={{ width: "500px" }}
