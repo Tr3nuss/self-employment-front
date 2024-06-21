@@ -7,7 +7,7 @@ export const HeaderPage = () => {
     <>
       <Box
         sx={{
-          maxWidth: "1740px",
+          width: "1740px",
           maxHeight: "120px",
           background: "#3A3A3E",
           boxSizing: "border-box",

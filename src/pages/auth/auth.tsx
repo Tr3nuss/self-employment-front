@@ -39,7 +39,7 @@ export const AuthPage: FC = () => {
               borderRadius: "30px",
             }}
           >
-            Войти
+            <Link to="/layout">Войти</Link>
           </Button>
 
           <Box

@@ -1,5 +1,4 @@
 import { FC } from "react";
-import "./aside.css";
 import { Box } from "@mui/material";
 import { asideIconsRoutes } from "../../shared/utils/asideIconsData";
 
@@ -8,7 +7,7 @@ export const AsidePage: FC = () => {
     <>
       <Box
         sx={{
-          maxWidth: "180px",
+          width: "180px",
           display: "flex",
           justifyContent: "center",
           background: "#3A3A3E",

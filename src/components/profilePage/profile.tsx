@@ -1,6 +1,5 @@
 import { Box, Button, TextField } from "@mui/material";
 import telegramm from "../../images/profileImages/telegram.svg";
-import { profileInputAttrs } from "../../shared/utils/profileInput";
 
 export const ProfilePage = () => {
   return (
