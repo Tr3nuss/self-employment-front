@@ -1,5 +1,4 @@
-import { PayloadAction, createSlice } from "@reduxjs/toolkit";
-import { RootState } from "@reduxjs/toolkit/query";
+import { createSlice } from "@reduxjs/toolkit";
 
 interface IProfileDataState {
   boolState: boolean;
