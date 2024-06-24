@@ -7,6 +7,11 @@ import { RootState } from "../../store/store";
 import { ProfileData } from "./profileData";
 
 export const ProfilePage: FC = () => {
+  const passportDataProps = {
+    variant: "standard",
+    sx: { width: "375px" },
+  };
+
   const dispatch = useDispatch();
   const profileData = useSelector(
     (state: RootState) => state.profileData.boolState
@@ -61,39 +66,15 @@ export const ProfilePage: FC = () => {
             }}
           >
             <Box sx={{ display: "flex", gap: "20px" }}>
-              <TextField
-                label="Фамилия"
-                variant="standard"
-                sx={{ width: 375 }}
-              ></TextField>
-              <TextField
-                label="Имя"
-                variant="standard"
-                sx={{ width: 375 }}
-              ></TextField>
-              <TextField
-                label="Отчество"
-                variant="standard"
-                sx={{ width: 375 }}
-              ></TextField>
+              <TextField label="Фамилия" {...passportDataProps}></TextField>
+              <TextField label="Имя" {...passportDataProps}></TextField>
+              <TextField label="Отчество" {...passportDataProps}></TextField>
             </Box>
 
             <Box sx={{ display: "flex", gap: "20px" }}>
-              <TextField
-                label="Логин"
-                variant="standard"
-                sx={{ width: 375 }}
-              ></TextField>
-              <TextField
-                label="E-mail"
-                variant="standard"
-                sx={{ width: 375 }}
-              ></TextField>
-              <TextField
-                label="Телефон"
-                variant="standard"
-                sx={{ width: 375 }}
-              ></TextField>
+              <TextField label="Логин" {...passportDataProps}></TextField>
+              <TextField label="E-mail" {...passportDataProps}></TextField>
+              <TextField label="Телефон" {...passportDataProps}></TextField>
             </Box>
           </Box>
           <p style={{ fontSize: 24 }} onClick={setBool}>
