@@ -66,15 +66,15 @@ export const ProfilePage: FC = () => {
             }}
           >
             <Box sx={{ display: "flex", gap: "20px" }}>
-              <TextField label="Фамилия" {...passportDataProps}></TextField>
-              <TextField label="Имя" {...passportDataProps}></TextField>
-              <TextField label="Отчество" {...passportDataProps}></TextField>
+              <TextField label="Фамилия" {...passportDataProps} />
+              <TextField label="Имя" {...passportDataProps} />
+              <TextField label="Отчество" {...passportDataProps} />
             </Box>
 
             <Box sx={{ display: "flex", gap: "20px" }}>
-              <TextField label="Логин" {...passportDataProps}></TextField>
-              <TextField label="E-mail" {...passportDataProps}></TextField>
-              <TextField label="Телефон" {...passportDataProps}></TextField>
+              <TextField label="Логин" {...passportDataProps} />
+              <TextField label="E-mail" {...passportDataProps} />
+              <TextField label="Телефон" {...passportDataProps} />
             </Box>
           </Box>
           <p style={{ fontSize: 24 }} onClick={setBool}>

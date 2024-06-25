@@ -1,8 +1,13 @@
 import { FC } from "react";
 import { Box } from "@mui/material";
 import { asideIconsRoutes } from "../../shared/utils/asideIconsData";
+import { Navigate } from "react-router-dom";
 
 export const AsidePage: FC = () => {
+  const goOnNextPage = (history: string) => {
+    return <Navigate to={history} replace />;
+  };
+
   return (
     <>
       <Box
@@ -28,6 +33,7 @@ export const AsidePage: FC = () => {
               src={item.src}
               alt={item.alt}
               style={{ width: 70, height: 70 }}
+              onClick={() => goOnNextPage(item.history)}
             ></img>
           ))}
         </Box>

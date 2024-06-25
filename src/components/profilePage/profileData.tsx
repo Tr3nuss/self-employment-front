@@ -26,6 +26,7 @@ export const ProfileData: FC = () => {
               key={index}
               variant="standard"
               label={item.label}
+              type={item.type}
             />
           ))}
         </Box>
