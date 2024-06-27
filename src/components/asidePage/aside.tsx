@@ -14,11 +14,11 @@ export const AsidePage: FC = () => {
     <>
       <Box
         sx={{
-          width: "180px",
+          minWidth: "180px",
           display: "flex",
           justifyContent: "center",
           background: "#3A3A3E",
-          height: "100vh",
+          minHeight: "100vh",
         }}
       >
         <Box
