@@ -1,6 +1,5 @@
 import { NavLink } from "react-router-dom";
 import { Box } from "@mui/material";
-import { blue } from "@mui/material/colors";
 
 export const CustomersPage = () => {
   return (

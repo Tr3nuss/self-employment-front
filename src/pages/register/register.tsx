@@ -1,11 +1,17 @@
 import { Box, Checkbox, TextField, Button } from "@mui/material";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { FC, FormEvent, useRef, useState } from "react";
 import "./register.css";
 import { IRegisterData } from "../../shared/types/registerData";
 
 export const RegisterPage: FC = () => {
+  const navigate = useNavigate();
+
+  const goOnAuthPage = (history: string) => {
+    navigate(history);
+  };
+
   let firstCheckbox: any,
     secondCheckbox: any = useRef<HTMLInputElement>(null);
 
@@ -115,6 +121,7 @@ export const RegisterPage: FC = () => {
               bgcolor: "gray",
               "&:hover": { background: "#1047A9" },
             }}
+            onClick={() => goOnAuthPage("/")}
           >
             Зарегистрироваться
           </Button>

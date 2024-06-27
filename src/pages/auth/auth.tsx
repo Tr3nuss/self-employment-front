@@ -1,9 +1,15 @@
 import { Box, Button, TextField } from "@mui/material";
 import "./auth.css";
 import { FC } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export const AuthPage: FC = () => {
+  const navigate = useNavigate();
+
+  const goOnRegisterPage = (history: string) => {
+    navigate(history);
+  };
+
   return (
     <>
       <Box
@@ -37,9 +43,11 @@ export const AuthPage: FC = () => {
               fontWeight: "600",
               textTransform: "none",
               borderRadius: "30px",
+              "&:hover": { background: "#1047A9" },
             }}
+            onClick={() => goOnRegisterPage("/register")}
           >
-            <Link to="/layout">Войти</Link>
+            Войти
           </Button>
 
           <Box

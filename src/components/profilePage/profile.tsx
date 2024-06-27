@@ -35,11 +35,13 @@ export const ProfilePage: FC = () => {
             <p style={{ fontSize: 32, fontWeight: 400 }}>Профиль</p>
             <Button
               sx={{
+                width: 341,
                 display: "flex",
                 gap: "10px",
                 textTransform: "none",
                 boxShadow: "0px 5px 10px 2px rgba(34, 60, 80, 0.2);",
                 bgcolor: "#fefeff",
+                borderRadius: "5px",
               }}
             >
               <img src={telegramm} alt="" />
