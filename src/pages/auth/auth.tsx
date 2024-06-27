@@ -24,7 +24,7 @@ export const AuthPage: FC = () => {
           <h2 className="auth-title">Авторизация</h2>
           <TextField
             sx={{ width: "500px" }}
-            label="e-mail"
+            label="E-mail"
             variant="standard"
           />
           <TextField

@@ -29,8 +29,8 @@ export const RegisterPage: FC = () => {
     const sendFormData = new FormData(event.currentTarget);
 
     const registerData: IRegisterData = {
-      username: sendFormData.get("username") as string,
       email: sendFormData.get("email") as string,
+      username: sendFormData.get("username") as string,
       password: sendFormData.get("password") as string,
       confirmPassword: sendFormData.get("confirmPassword") as string,
     };
@@ -64,19 +64,19 @@ export const RegisterPage: FC = () => {
           <h2 className="register-title">Регистрация</h2>
           <TextField
             sx={{ width: "500px" }}
-            name="username"
-            label="username"
+            name="email"
+            label="E-mail"
             variant="standard"
           />
           <TextField
             name="email"
-            label="email"
+            label="Логин"
             variant="standard"
             sx={{ width: "500px" }}
           />
           <TextField
             name="password"
-            label="password"
+            label="Пароль"
             variant="standard"
             type="password"
             sx={{ width: "500px" }}
@@ -84,7 +84,7 @@ export const RegisterPage: FC = () => {
           <TextField
             name="confirmPassword"
             id="standard-basic"
-            label="confirmPassword"
+            label="Подтвердить пароль"
             variant="standard"
             type="password"
             sx={{ width: "500px" }}
