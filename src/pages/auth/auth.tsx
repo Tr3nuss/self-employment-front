@@ -45,7 +45,7 @@ export const AuthPage: FC = () => {
               borderRadius: "30px",
               "&:hover": { background: "#1047A9" },
             }}
-            onClick={() => goOnRegisterPage("/register")}
+            onClick={() => goOnRegisterPage("/layout")}
           >
             Войти
           </Button>

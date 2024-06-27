@@ -5,6 +5,7 @@ import { Routes, Route } from "react-router-dom";
 import { ProfilePage } from "./components/profilePage/profile";
 import { LayoutPage } from "./layout";
 import { CustomersPage } from "./components/customerPage/customers";
+import { NaturalPersonPage } from "./components/customerPage/customersTypes/naturalPerson";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         <Route path="/" element={<AuthPage />}></Route>
         <Route path="/layout" element={<LayoutPage />}>
           <Route index element={<ProfilePage />} />
-          <Route path="customers" element={<CustomersPage />} />
+          <Route path="customers" element={<NaturalPersonPage />} />
         </Route>
         <Route path="/register" element={<RegisterPage />}></Route>
         <Route path="/recpass" element={<RecPasswordPage />}></Route>
