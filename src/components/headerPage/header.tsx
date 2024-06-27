@@ -1,8 +1,9 @@
 import { Box, TextField } from "@mui/material";
 import alert from "../../images/headerImages/alerts.svg";
 import settings from "../../images/headerImages/settings.svg";
+import { FC } from "react";
 
-export const HeaderPage = () => {
+export const HeaderPage: FC = () => {
   return (
     <>
       <Box

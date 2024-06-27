@@ -2,7 +2,6 @@ import { FC } from "react";
 import "./recpass.css";
 import { Box, TextField, Button } from "@mui/material";
 import { useNavigate } from "react-router-dom";
-import axios from "axios";
 
 export const RecPasswordPage: FC = () => {
   const sendIntervalMessageSeconds: number = 120;
@@ -39,7 +38,6 @@ export const RecPasswordPage: FC = () => {
               fontSize: "24px",
               fontWeight: "400",
               borderRadius: "30px",
-              "&:hover": { background: "#1047A9" },
             }}
           >
             Восстановить пароль

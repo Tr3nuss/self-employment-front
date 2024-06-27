@@ -125,6 +125,10 @@ export const RegisterPage: FC = () => {
           >
             Зарегистрироваться
           </Button>
+
+          <Link to="/" className="reg-to-auth-link">
+            Уже зарегстрированы?
+          </Link>
         </form>
       </Box>
     </>

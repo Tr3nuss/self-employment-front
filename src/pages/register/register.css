@@ -15,3 +15,11 @@
   font-size: 16px;
   color: #000;
 }
+
+.reg-to-auth-link {
+  text-align: center;
+  text-decoration: none;
+  margin-top: 20px;
+  font-weight: 700;
+  color: #1d1d93;
+}
