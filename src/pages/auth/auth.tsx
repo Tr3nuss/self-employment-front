@@ -1,7 +1,8 @@
 import { Box, Button, TextField } from "@mui/material";
 import "./auth.css";
-import { FC } from "react";
+import { FC, FormEvent } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import axios from "axios";
 
 export const AuthPage: FC = () => {
   const navigate = useNavigate();
@@ -9,6 +10,28 @@ export const AuthPage: FC = () => {
   const goOnRegisterPage = (history: string) => {
     navigate(history);
   };
+
+  interface IAuthFormData {
+    email: string;
+    password: string;
+  }
+
+  async function sendAuthData(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+
+    const authFormData = new FormData(event?.currentTarget);
+
+    const authData: IAuthFormData = {
+      email: authFormData.get("email") as string,
+      password: authFormData.get("password") as string,
+    };
+
+    try {
+      const res = await axios.post("http://8000", authData);
+    } catch (e) {
+      alert(e);
+    }
+  }
 
   return (
     <>
@@ -20,18 +43,20 @@ export const AuthPage: FC = () => {
           minHeight: "100vh",
         }}
       >
-        <form className="auth-input-field">
+        <form onSubmit={sendAuthData} className="auth-input-field">
           <h2 className="auth-title">Авторизация</h2>
           <TextField
             sx={{ width: "500px" }}
             label="E-mail"
             variant="standard"
+            name="email"
           />
           <TextField
             sx={{ width: "500px" }}
             label="Пароль"
             variant="standard"
             type="password"
+            name="password"
           />
 
           <Button
@@ -46,6 +71,7 @@ export const AuthPage: FC = () => {
               "&:hover": { background: "#1047A9" },
             }}
             onClick={() => goOnRegisterPage("/layout")}
+            type="submit"
           >
             Войти
           </Button>
