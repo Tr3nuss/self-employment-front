@@ -19,7 +19,7 @@ export const ProfileData: FC = () => {
           Паспортные данные
         </p>
 
-        <Box sx={{ display: "flex", gap: "20px" }}>
+        <Box sx={{ display: "flex", gap: "20px", marginTop: "40px" }}>
           {passportData.map((item, index) => (
             <TextField
               sx={{ width: item.width }}

@@ -5,6 +5,11 @@ export interface INaturalCustomer {
   width: string | number;
 }
 
+export interface IIndividualCustomer {
+  label: string;
+  width: string | number;
+}
+
 export interface ICustomerPassportData {
   label: string;
   type: string;

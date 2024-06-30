@@ -1,5 +1,6 @@
 import {
   ICustomerPassportData,
+  IIndividualCustomer,
   INaturalCustomer,
 } from "../types/customerDataTypes";
 
@@ -10,6 +11,14 @@ export const naturalCustomerInputData: INaturalCustomer[] = [
   { width: 375, label: "E-Mail" },
   { width: 243, label: "Телефон" },
   { width: 243, label: "Соцсети" },
+];
+
+export const IndividualCustomerInputData: IIndividualCustomer[] = [
+  { label: "Наименование предприятия", width: 375 },
+  { label: "Директор", width: 375 },
+  { label: "Юридический адрес", width: 506 },
+  { label: "E-mail", width: 375 },
+  { label: "Телефон", width: 243 },
 ];
 
 export const customerInputPassportData: ICustomerPassportData[] = [

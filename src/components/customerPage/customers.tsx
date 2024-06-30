@@ -1,13 +1,21 @@
 import { NavLink } from "react-router-dom";
 import { Box, Autocomplete, TextField } from "@mui/material";
-import { FC } from "react";
+import { FC, useState } from "react";
+import { NaturalPersonPage } from "./customersTypes/naturalPerson";
+import { IndividualPerson } from "./customersTypes/individualPerson";
 
 export const CustomersPage: FC = () => {
-  const subjects = [
+  interface ICustomerSubject {
+    label: string;
+  }
+
+  const subjects: ICustomerSubject[] = [
     { label: "Физическое лицо" },
     { label: "ИП" },
     { label: "ООО" },
   ];
+
+  const [selectedSubject, setSelectedSubject] = useState(null);
 
   return (
     <>
@@ -65,11 +73,21 @@ export const CustomersPage: FC = () => {
           <Autocomplete
             disablePortal
             options={subjects}
+            getOptionLabel={(option) => option.label}
+            onChange={(event, value) => setSelectedSubject(value)}
             sx={{ width: 300, marginTop: "40px" }}
             renderInput={(params) => (
               <TextField {...params} label="Субъекты" variant="standard" />
             )}
           />
+
+          {selectedSubject && selectedSubject.label === "Физическое лицо" && (
+            <NaturalPersonPage />
+          )}
+
+          {selectedSubject && selectedSubject.label === "ИП" && (
+            <IndividualPerson />
+          )}
         </Box>
       </Box>
     </>
