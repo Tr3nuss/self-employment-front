@@ -29,6 +29,7 @@ export const CustomersPage: FC = () => {
               to="/layout/customers"
               style={({ isActive }) => ({
                 textDecoration: isActive ? "underline  blue" : "none",
+                textUnderlineOffset: isActive ? "7px" : "0px",
                 fontSize: 32,
                 fontWeight: 400,
                 color: "#000",
@@ -37,9 +38,10 @@ export const CustomersPage: FC = () => {
               Заказчики
             </NavLink>
             <NavLink
-              to="*"
+              to="/layout/transactions"
               style={({ isActive }) => ({
-                textDecoration: isActive ? "underline dotted blue" : "none",
+                textDecoration: isActive ? "underline blue" : "none",
+                textUnderlineOffset: isActive ? "7px" : "0px",
                 fontSize: 32,
                 fontWeight: 400,
                 color: "#000",

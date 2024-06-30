@@ -5,7 +5,7 @@ import { Routes, Route } from "react-router-dom";
 import { ProfilePage } from "./components/profilePage/profile";
 import { LayoutPage } from "./layout";
 import { CustomersPage } from "./components/customerPage/customers";
-import { NaturalPersonPage } from "./components/customerPage/customersTypes/naturalPerson";
+import { DealPage } from "./components/dealPage/deal";
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
         <Route path="/layout" element={<LayoutPage />}>
           <Route index element={<ProfilePage />} />
           <Route path="customers" element={<CustomersPage />} />
+          <Route path="transactions" element={<DealPage />} />
         </Route>
         <Route path="/register" element={<RegisterPage />}></Route>
         <Route path="/recpass" element={<RecPasswordPage />}></Route>
