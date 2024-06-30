@@ -10,6 +10,11 @@ export interface IIndividualCustomer {
   width: string | number;
 }
 
+export interface ISocietyCustomer {
+  label: string;
+  width: string | number;
+}
+
 export interface ICustomerPassportData {
   label: string;
   type: string;

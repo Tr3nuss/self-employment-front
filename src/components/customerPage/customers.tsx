@@ -3,6 +3,7 @@ import { Box, Autocomplete, TextField } from "@mui/material";
 import { FC, useState } from "react";
 import { NaturalPersonPage } from "./customersTypes/naturalPerson";
 import { IndividualPerson } from "./customersTypes/individualPerson";
+import { SocietyPerson } from "./customersTypes/societyPerson";
 
 export const CustomersPage: FC = () => {
   interface ICustomerSubject {
@@ -87,6 +88,10 @@ export const CustomersPage: FC = () => {
 
           {selectedSubject && selectedSubject.label === "ИП" && (
             <IndividualPerson />
+          )}
+
+          {selectedSubject && selectedSubject.label === "ООО" && (
+            <SocietyPerson />
           )}
         </Box>
       </Box>
