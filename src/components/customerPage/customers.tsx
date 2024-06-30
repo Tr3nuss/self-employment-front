@@ -24,46 +24,28 @@ export const CustomersPage: FC = () => {
         <Box sx={{ maxWidth: "1460px", margin: "20px auto" }}>
           <p>Главная / Заказчики</p>
 
-          <Box>
+          <Box sx={{ display: "flex", gap: "100px", marginTop: "25px" }}>
             <NavLink
-              to="*"
+              to="/layout/customers"
               style={({ isActive }) => ({
-                textDecoration: isActive ? "underline dotted blue" : "none",
+                textDecoration: isActive ? "underline  blue" : "none",
+                fontSize: 32,
+                fontWeight: 400,
+                color: "#000",
               })}
             >
-              TAB
+              Заказчики
             </NavLink>
             <NavLink
               to="*"
               style={({ isActive }) => ({
                 textDecoration: isActive ? "underline dotted blue" : "none",
+                fontSize: 32,
+                fontWeight: 400,
+                color: "#000",
               })}
             >
-              TAB
-            </NavLink>
-            <NavLink
-              to="*"
-              style={({ isActive }) => ({
-                textDecoration: isActive ? "underline dotted blue" : "none",
-              })}
-            >
-              TAB
-            </NavLink>
-            <NavLink
-              to="*"
-              style={({ isActive }) => ({
-                textDecoration: isActive ? "underline dotted blue" : "none",
-              })}
-            >
-              TAB
-            </NavLink>
-            <NavLink
-              to="*"
-              style={({ isActive }) => ({
-                textDecoration: isActive ? "underline dotted blue" : "none",
-              })}
-            >
-              TAB
+              Сделки
             </NavLink>
           </Box>
 
