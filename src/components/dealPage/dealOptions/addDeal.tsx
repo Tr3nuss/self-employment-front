@@ -79,17 +79,8 @@ export const AddDealPage: FC = () => {
                   label="Предоставленная услуга"
                   variant="standard"
                 />
-                <TextField
-                  sx={{ width: 243 }}
-                  label="Сумма сделки"
-                  variant="standard"
-                />
-                <TextField
-                  sx={{ width: 243 }}
-                  label=" "
-                  variant="standard"
-                  type="date"
-                />
+                <TextField sx={{ width: 243 }} label="Сумма сделки" />
+                <TextField sx={{ width: 243 }} label="Дата" type="date" />
               </Box>
             </Box>
           </Box>

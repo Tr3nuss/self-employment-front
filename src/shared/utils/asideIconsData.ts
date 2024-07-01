@@ -11,8 +11,8 @@ export const asideIconsRoutes: IAsideIcon[] = [
   { src: user, alt: "User", history: "" },
   { src: home, alt: "Home", history: "" },
   { src: tasks, alt: "Tasks", history: "" },
-  { src: users, alt: "Users", history: "" },
-  { src: documents, alt: "Documents", history: "customers" },
+  { src: users, alt: "Users", history: "customers" },
+  { src: documents, alt: "Documents", history: "payments" },
   { src: papers, alt: "Papers", history: "" },
   { src: quit, alt: "Quit", history: "" },
 ];
