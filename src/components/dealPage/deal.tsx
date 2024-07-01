@@ -1,6 +1,7 @@
 import { Box } from "@mui/material";
 import { NavLink } from "react-router-dom";
 import { FC } from "react";
+import { AddDealPage } from "./dealOptions/addDeal";
 
 export const DealPage: FC = () => {
   return (
@@ -35,6 +36,7 @@ export const DealPage: FC = () => {
               Сделки
             </NavLink>
           </Box>
+          
         </Box>
       </Box>
     </>

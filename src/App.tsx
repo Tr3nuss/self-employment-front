@@ -6,6 +6,7 @@ import { ProfilePage } from "./components/profilePage/profile";
 import { LayoutPage } from "./layout";
 import { CustomersPage } from "./components/customerPage/customers";
 import { DealPage } from "./components/dealPage/deal";
+import { AddDealPage } from "./components/dealPage/dealOptions/addDeal";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
         <Route path="/layout" element={<LayoutPage />}>
           <Route index element={<ProfilePage />} />
           <Route path="customers" element={<CustomersPage />} />
-          <Route path="transactions" element={<DealPage />} />
+          <Route path="transactions" element={<DealPage />}></Route>
+          <Route path="add_transactions" element={<AddDealPage />} />
         </Route>
         <Route path="/register" element={<RegisterPage />}></Route>
         <Route path="/recpass" element={<RecPasswordPage />}></Route>
