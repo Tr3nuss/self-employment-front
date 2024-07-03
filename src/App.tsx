@@ -10,6 +10,7 @@ import { AddDealPage } from "./components/dealPage/dealOptions/addDeal";
 import { PaymentPage } from "./components/paymentPage/payments";
 import { AddPayments } from "./components/paymentPage/paymentOptions/addPayments";
 import { MainPage } from "./mainPage/mainPage";
+import { DocumentsPage } from "./components/documentPage/documents";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       <Routes>
         <Route path="/" element={<AuthPage />}></Route>
         <Route path="/layout" element={<LayoutPage />}>
-          <Route index element={<ProfilePage />} />
+          <Route path="profile" element={<ProfilePage />} />
+          <Route path="documents" element={<DocumentsPage />}></Route>
           <Route path="main" element={<MainPage />} />
           <Route path="customers" element={<CustomersPage />} />
           <Route path="transactions" element={<DealPage />} />

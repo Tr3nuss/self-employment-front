@@ -7,9 +7,9 @@ import users from "../../images/asideImages/Frame 6.svg";
 import quit from "../../images/asideImages/Frame 7.svg";
 
 export const asideIconsRoutes: IAsideIcon[] = [
-  { src: user, alt: "User", history: "" },
+  { src: user, alt: "User", history: "profile" },
   { src: home, alt: "Home", history: "main" },
-  { src: tasks, alt: "Tasks", history: "" },
+  { src: tasks, alt: "Tasks", history: "documents" },
   { src: users, alt: "Users", history: "customers" },
   { src: documents, alt: "Documents", history: "payments" },
   { src: quit, alt: "Quit", history: "" },

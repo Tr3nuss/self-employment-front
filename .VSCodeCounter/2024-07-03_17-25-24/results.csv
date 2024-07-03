@@ -1,0 +1,58 @@
+"filename", "language", "TypeScript", "JSON", "HTML", "JSON with Comments", "JavaScript", "XML", "Markdown", "TypeScript JSX", "CSS", "comment", "blank", "total"
+"c:\Users\Ваня\self-employment-front\.eslintrc.cjs", "JavaScript", 0, 0, 0, 0, 18, 0, 0, 0, 0, 0, 1, 19
+"c:\Users\Ваня\self-employment-front\README.md", "Markdown", 0, 0, 0, 0, 0, 0, 22, 0, 0, 0, 9, 31
+"c:\Users\Ваня\self-employment-front\index.html", "HTML", 0, 0, 19, 0, 0, 0, 0, 0, 0, 0, 2, 21
+"c:\Users\Ваня\self-employment-front\package-lock.json", "JSON", 0, 4106, 0, 0, 0, 0, 0, 0, 0, 0, 1, 4107
+"c:\Users\Ваня\self-employment-front\package.json", "JSON", 0, 35, 0, 0, 0, 0, 0, 0, 0, 0, 1, 36
+"c:\Users\Ваня\self-employment-front\public\vite.svg", "XML", 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1
+"c:\Users\Ваня\self-employment-front\src\App.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 32, 0, 0, 3, 35
+"c:\Users\Ваня\self-employment-front\src\assets\react.svg", "XML", 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1
+"c:\Users\Ваня\self-employment-front\src\components\asidePage\aside.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 42, 0, 0, 4, 46
+"c:\Users\Ваня\self-employment-front\src\components\customerPage\customers.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 74, 0, 0, 11, 85
+"c:\Users\Ваня\self-employment-front\src\components\customerPage\customersTypes\individualPerson.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 38, 0, 0, 3, 41
+"c:\Users\Ваня\self-employment-front\src\components\customerPage\customersTypes\naturalPerson.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 36, 0, 0, 4, 40
+"c:\Users\Ваня\self-employment-front\src\components\customerPage\customersTypes\societyPerson.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 20, 0, 0, 2, 22
+"c:\Users\Ваня\self-employment-front\src\components\dealPage\deal.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 41, 0, 0, 4, 45
+"c:\Users\Ваня\self-employment-front\src\components\dealPage\dealOptions\addDeal.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 86, 0, 0, 6, 92
+"c:\Users\Ваня\self-employment-front\src\components\documentPage\documents.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 11, 0, 0, 2, 13
+"c:\Users\Ваня\self-employment-front\src\components\headerPage\header.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 40, 0, 0, 2, 42
+"c:\Users\Ваня\self-employment-front\src\components\paymentPage\paymentOptions\addPayments.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 80, 0, 0, 6, 86
+"c:\Users\Ваня\self-employment-front\src\components\paymentPage\payments.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 40, 0, 0, 3, 43
+"c:\Users\Ваня\self-employment-front\src\components\profilePage\profile.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 83, 0, 0, 9, 92
+"c:\Users\Ваня\self-employment-front\src\components\profilePage\profileData.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 34, 0, 0, 5, 39
+"c:\Users\Ваня\self-employment-front\src\images\asideImages\Frame 3.svg", "XML", 0, 0, 0, 0, 0, 23, 0, 0, 0, 0, 1, 24
+"c:\Users\Ваня\self-employment-front\src\images\asideImages\Frame 4.svg", "XML", 0, 0, 0, 0, 0, 23, 0, 0, 0, 0, 1, 24
+"c:\Users\Ваня\self-employment-front\src\images\asideImages\Frame 6.svg", "XML", 0, 0, 0, 0, 0, 23, 0, 0, 0, 0, 1, 24
+"c:\Users\Ваня\self-employment-front\src\images\asideImages\Frame 7.svg", "XML", 0, 0, 0, 0, 0, 23, 0, 0, 0, 0, 1, 24
+"c:\Users\Ваня\self-employment-front\src\images\asideImages\User images.svg", "XML", 0, 0, 0, 0, 0, 27, 0, 0, 0, 0, 1, 28
+"c:\Users\Ваня\self-employment-front\src\images\asideImages\home.svg", "XML", 0, 0, 0, 0, 0, 23, 0, 0, 0, 0, 1, 24
+"c:\Users\Ваня\self-employment-front\src\images\headerImages\alerts.svg", "XML", 0, 0, 0, 0, 0, 23, 0, 0, 0, 0, 1, 24
+"c:\Users\Ваня\self-employment-front\src\images\headerImages\settings.svg", "XML", 0, 0, 0, 0, 0, 23, 0, 0, 0, 0, 1, 24
+"c:\Users\Ваня\self-employment-front\src\images\mainImages\customers.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\Ваня\self-employment-front\src\images\mainImages\documents.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\Ваня\self-employment-front\src\images\mainImages\payments.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\Ваня\self-employment-front\src\images\profileImages\telegram.svg", "XML", 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 4
+"c:\Users\Ваня\self-employment-front\src\index.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 2, 10
+"c:\Users\Ваня\self-employment-front\src\layout.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 17, 0, 0, 2, 19
+"c:\Users\Ваня\self-employment-front\src\main.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 16, 0, 0, 2, 18
+"c:\Users\Ваня\self-employment-front\src\mainPage\mainPage.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 78, 0, 0, 4, 82
+"c:\Users\Ваня\self-employment-front\src\pages\auth\auth.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 22, 0, 4, 26
+"c:\Users\Ваня\self-employment-front\src\pages\auth\auth.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 89, 0, 0, 11, 100
+"c:\Users\Ваня\self-employment-front\src\pages\pass-rec\recpass.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 21, 0, 4, 25
+"c:\Users\Ваня\self-employment-front\src\pages\pass-rec\recpass.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 5, 70
+"c:\Users\Ваня\self-employment-front\src\pages\register\register.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 23, 0, 4, 27
+"c:\Users\Ваня\self-employment-front\src\pages\register\register.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 122, 0, 0, 15, 137
+"c:\Users\Ваня\self-employment-front\src\shared\types\asideIconsTypes.ts", "TypeScript", 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 6
+"c:\Users\Ваня\self-employment-front\src\shared\types\customerDataTypes.ts", "TypeScript", 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 23
+"c:\Users\Ваня\self-employment-front\src\shared\types\profileData.ts", "TypeScript", 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 6
+"c:\Users\Ваня\self-employment-front\src\shared\types\registerData.ts", "TypeScript", 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 7
+"c:\Users\Ваня\self-employment-front\src\shared\utils\asideIconsData.ts", "TypeScript", 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 17
+"c:\Users\Ваня\self-employment-front\src\shared\utils\customerInputData.ts", "TypeScript", 41, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 46
+"c:\Users\Ваня\self-employment-front\src\shared\utils\profilePassportData.ts", "TypeScript", 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 10
+"c:\Users\Ваня\self-employment-front\src\store\profileDataSlice\profileData.ts", "TypeScript", 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 23
+"c:\Users\Ваня\self-employment-front\src\store\store.ts", "TypeScript", 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 14
+"c:\Users\Ваня\self-employment-front\src\vite-env.d.ts", "TypeScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 2
+"c:\Users\Ваня\self-employment-front\tsconfig.json", "JSON with Comments", 0, 0, 0, 21, 0, 0, 0, 0, 0, 2, 3, 26
+"c:\Users\Ваня\self-employment-front\tsconfig.node.json", "JSON", 0, 11, 0, 0, 0, 0, 0, 0, 0, 0, 1, 12
+"c:\Users\Ваня\self-employment-front\vite.config.ts", "TypeScript", 5, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 8
+"Total", "-", 130, 4152, 19, 21, 18, 202, 22, 1044, 74, 4, 177, 5863
