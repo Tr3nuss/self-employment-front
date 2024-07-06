@@ -18,6 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<AuthPage />}></Route>
         <Route path="/layout" element={<LayoutPage />}>
+          <Route index element={<ProfilePage />} />
           <Route path="profile" element={<ProfilePage />} />
           <Route path="documents" element={<DocumentsPage />}></Route>
           <Route path="main" element={<MainPage />} />
