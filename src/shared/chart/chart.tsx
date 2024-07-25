@@ -1,4 +1,5 @@
 import { FC } from "react";
+import ApexCharts from "apexcharts";
 
 export const Chart: FC = () => {
   const options = {

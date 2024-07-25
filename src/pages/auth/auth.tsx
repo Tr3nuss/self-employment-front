@@ -49,6 +49,7 @@ export const AuthPage: FC = () => {
             sx={{ width: "500px" }}
             label="E-mail"
             variant="standard"
+            type="email"
             name="email"
           />
           <TextField

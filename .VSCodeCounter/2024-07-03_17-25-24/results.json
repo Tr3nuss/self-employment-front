@@ -1,1 +1,338 @@
-{"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/vite.config.ts":{"language":"TypeScript","code":5,"comment":1,"blank":2},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/tsconfig.node.json":{"language":"JSON","code":11,"comment":0,"blank":1},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/index.html":{"language":"HTML","code":19,"comment":0,"blank":2},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/tsconfig.json":{"language":"JSON with Comments","code":21,"comment":2,"blank":3},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/.eslintrc.cjs":{"language":"JavaScript","code":18,"comment":0,"blank":1},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/package.json":{"language":"JSON","code":35,"comment":0,"blank":1},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/package-lock.json":{"language":"JSON","code":4106,"comment":0,"blank":1},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/vite-env.d.ts":{"language":"TypeScript","code":0,"comment":1,"blank":1},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/store/profileDataSlice/profileData.ts":{"language":"TypeScript","code":18,"comment":0,"blank":5},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/store/store.ts":{"language":"TypeScript","code":9,"comment":0,"blank":5},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/shared/utils/profilePassportData.ts":{"language":"TypeScript","code":8,"comment":0,"blank":2},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/shared/utils/customerInputData.ts":{"language":"TypeScript","code":41,"comment":0,"blank":5},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/shared/utils/asideIconsData.ts":{"language":"TypeScript","code":15,"comment":0,"blank":2},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/shared/types/registerData.ts":{"language":"TypeScript","code":6,"comment":0,"blank":1},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/shared/types/customerDataTypes.ts":{"language":"TypeScript","code":18,"comment":0,"blank":5},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/shared/types/profileData.ts":{"language":"TypeScript","code":5,"comment":0,"blank":1},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/public/vite.svg":{"language":"XML","code":1,"comment":0,"blank":0},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/README.md":{"language":"Markdown","code":22,"comment":0,"blank":9},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/shared/types/asideIconsTypes.ts":{"language":"TypeScript","code":5,"comment":0,"blank":1},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/pages/register/register.tsx":{"language":"TypeScript JSX","code":122,"comment":0,"blank":15},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/mainPage/mainPage.tsx":{"language":"TypeScript JSX","code":78,"comment":0,"blank":4},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/pages/pass-rec/recpass.tsx":{"language":"TypeScript JSX","code":65,"comment":0,"blank":5},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/pages/register/register.css":{"language":"CSS","code":23,"comment":0,"blank":4},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/pages/pass-rec/recpass.css":{"language":"CSS","code":21,"comment":0,"blank":4},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/index.css":{"language":"CSS","code":8,"comment":0,"blank":2},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/main.tsx":{"language":"TypeScript JSX","code":16,"comment":0,"blank":2},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/layout.tsx":{"language":"TypeScript JSX","code":17,"comment":0,"blank":2},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/images/profileImages/telegram.svg":{"language":"XML","code":3,"comment":0,"blank":1},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/images/headerImages/settings.svg":{"language":"XML","code":23,"comment":0,"blank":1},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/images/asideImages/Frame%207.svg":{"language":"XML","code":23,"comment":0,"blank":1},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/images/asideImages/User%20images.svg":{"language":"XML","code":27,"comment":0,"blank":1},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/images/headerImages/alerts.svg":{"language":"XML","code":23,"comment":0,"blank":1},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/images/asideImages/Frame%206.svg":{"language":"XML","code":23,"comment":0,"blank":1},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/images/asideImages/home.svg":{"language":"XML","code":23,"comment":0,"blank":1},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/images/mainImages/documents.svg":{"language":"XML","code":3,"comment":0,"blank":1},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/images/asideImages/Frame%204.svg":{"language":"XML","code":23,"comment":0,"blank":1},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/images/mainImages/payments.svg":{"language":"XML","code":3,"comment":0,"blank":1},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/pages/auth/auth.tsx":{"language":"TypeScript JSX","code":89,"comment":0,"blank":11},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/pages/auth/auth.css":{"language":"CSS","code":22,"comment":0,"blank":4},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/images/asideImages/Frame%203.svg":{"language":"XML","code":23,"comment":0,"blank":1},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/components/profilePage/profile.tsx":{"language":"TypeScript JSX","code":83,"comment":0,"blank":9},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/components/profilePage/profileData.tsx":{"language":"TypeScript JSX","code":34,"comment":0,"blank":5},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/components/dealPage/dealOptions/addDeal.tsx":{"language":"TypeScript JSX","code":86,"comment":0,"blank":6},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/components/paymentPage/payments.tsx":{"language":"TypeScript JSX","code":40,"comment":0,"blank":3},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/components/paymentPage/paymentOptions/addPayments.tsx":{"language":"TypeScript JSX","code":80,"comment":0,"blank":6},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/images/mainImages/customers.svg":{"language":"XML","code":3,"comment":0,"blank":1},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/components/headerPage/header.tsx":{"language":"TypeScript JSX","code":40,"comment":0,"blank":2},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/components/dealPage/deal.tsx":{"language":"TypeScript JSX","code":41,"comment":0,"blank":4},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/components/customerPage/customers.tsx":{"language":"TypeScript JSX","code":74,"comment":0,"blank":11},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/assets/react.svg":{"language":"XML","code":1,"comment":0,"blank":0},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/components/customerPage/customersTypes/societyPerson.tsx":{"language":"TypeScript JSX","code":20,"comment":0,"blank":2},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/components/customerPage/customersTypes/individualPerson.tsx":{"language":"TypeScript JSX","code":38,"comment":0,"blank":3},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/components/asidePage/aside.tsx":{"language":"TypeScript JSX","code":42,"comment":0,"blank":4},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/components/customerPage/customersTypes/naturalPerson.tsx":{"language":"TypeScript JSX","code":36,"comment":0,"blank":4},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/App.tsx":{"language":"TypeScript JSX","code":32,"comment":0,"blank":3},"file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/components/documentPage/documents.tsx":{"language":"TypeScript JSX","code":11,"comment":0,"blank":2}}
+{
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/vite.config.ts": {
+    "language": "TypeScript",
+    "code": 5,
+    "comment": 1,
+    "blank": 2
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/tsconfig.node.json": {
+    "language": "JSON",
+    "code": 11,
+    "comment": 0,
+    "blank": 1
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/index.html": {
+    "language": "HTML",
+    "code": 19,
+    "comment": 0,
+    "blank": 2
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/tsconfig.json": {
+    "language": "JSON with Comments",
+    "code": 21,
+    "comment": 2,
+    "blank": 3
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/.eslintrc.cjs": {
+    "language": "JavaScript",
+    "code": 18,
+    "comment": 0,
+    "blank": 1
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/package.json": {
+    "language": "JSON",
+    "code": 35,
+    "comment": 0,
+    "blank": 1
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/package-lock.json": {
+    "language": "JSON",
+    "code": 4106,
+    "comment": 0,
+    "blank": 1
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/vite-env.d.ts": {
+    "language": "TypeScript",
+    "code": 0,
+    "comment": 1,
+    "blank": 1
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/store/profileDataSlice/profileData.ts": {
+    "language": "TypeScript",
+    "code": 18,
+    "comment": 0,
+    "blank": 5
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/store/store.ts": {
+    "language": "TypeScript",
+    "code": 9,
+    "comment": 0,
+    "blank": 5
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/shared/utils/profilePassportData.ts": {
+    "language": "TypeScript",
+    "code": 8,
+    "comment": 0,
+    "blank": 2
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/shared/utils/customerInputData.ts": {
+    "language": "TypeScript",
+    "code": 41,
+    "comment": 0,
+    "blank": 5
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/shared/utils/asideIconsData.ts": {
+    "language": "TypeScript",
+    "code": 15,
+    "comment": 0,
+    "blank": 2
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/shared/types/registerData.ts": {
+    "language": "TypeScript",
+    "code": 6,
+    "comment": 0,
+    "blank": 1
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/shared/types/customerDataTypes.ts": {
+    "language": "TypeScript",
+    "code": 18,
+    "comment": 0,
+    "blank": 5
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/shared/types/profileData.ts": {
+    "language": "TypeScript",
+    "code": 5,
+    "comment": 0,
+    "blank": 1
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/public/vite.svg": {
+    "language": "XML",
+    "code": 1,
+    "comment": 0,
+    "blank": 0
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/README.md": {
+    "language": "Markdown",
+    "code": 22,
+    "comment": 0,
+    "blank": 9
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/shared/types/asideIconsTypes.ts": {
+    "language": "TypeScript",
+    "code": 5,
+    "comment": 0,
+    "blank": 1
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/pages/register/register.tsx": {
+    "language": "TypeScript JSX",
+    "code": 122,
+    "comment": 0,
+    "blank": 15
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/mainPage/mainPage.tsx": {
+    "language": "TypeScript JSX",
+    "code": 78,
+    "comment": 0,
+    "blank": 4
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/pages/pass-rec/recpass.tsx": {
+    "language": "TypeScript JSX",
+    "code": 65,
+    "comment": 0,
+    "blank": 5
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/pages/register/register.css": {
+    "language": "CSS",
+    "code": 23,
+    "comment": 0,
+    "blank": 4
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/pages/pass-rec/recpass.css": {
+    "language": "CSS",
+    "code": 21,
+    "comment": 0,
+    "blank": 4
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/index.css": {
+    "language": "CSS",
+    "code": 8,
+    "comment": 0,
+    "blank": 2
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/main.tsx": {
+    "language": "TypeScript JSX",
+    "code": 16,
+    "comment": 0,
+    "blank": 2
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/layout.tsx": {
+    "language": "TypeScript JSX",
+    "code": 17,
+    "comment": 0,
+    "blank": 2
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/images/profileImages/telegram.svg": {
+    "language": "XML",
+    "code": 3,
+    "comment": 0,
+    "blank": 1
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/images/headerImages/settings.svg": {
+    "language": "XML",
+    "code": 23,
+    "comment": 0,
+    "blank": 1
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/images/asideImages/Frame%207.svg": {
+    "language": "XML",
+    "code": 23,
+    "comment": 0,
+    "blank": 1
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/images/asideImages/User%20images.svg": {
+    "language": "XML",
+    "code": 27,
+    "comment": 0,
+    "blank": 1
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/images/headerImages/alerts.svg": {
+    "language": "XML",
+    "code": 23,
+    "comment": 0,
+    "blank": 1
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/images/asideImages/Frame%206.svg": {
+    "language": "XML",
+    "code": 23,
+    "comment": 0,
+    "blank": 1
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/images/asideImages/home.svg": {
+    "language": "XML",
+    "code": 23,
+    "comment": 0,
+    "blank": 1
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/images/mainImages/documents.svg": {
+    "language": "XML",
+    "code": 3,
+    "comment": 0,
+    "blank": 1
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/images/asideImages/Frame%204.svg": {
+    "language": "XML",
+    "code": 23,
+    "comment": 0,
+    "blank": 1
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/images/mainImages/payments.svg": {
+    "language": "XML",
+    "code": 3,
+    "comment": 0,
+    "blank": 1
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/pages/auth/auth.tsx": {
+    "language": "TypeScript JSX",
+    "code": 89,
+    "comment": 0,
+    "blank": 11
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/pages/auth/auth.css": {
+    "language": "CSS",
+    "code": 22,
+    "comment": 0,
+    "blank": 4
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/images/asideImages/Frame%203.svg": {
+    "language": "XML",
+    "code": 23,
+    "comment": 0,
+    "blank": 1
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/components/profilePage/profile.tsx": {
+    "language": "TypeScript JSX",
+    "code": 83,
+    "comment": 0,
+    "blank": 9
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/components/profilePage/profileData.tsx": {
+    "language": "TypeScript JSX",
+    "code": 34,
+    "comment": 0,
+    "blank": 5
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/components/dealPage/dealOptions/addDeal.tsx": {
+    "language": "TypeScript JSX",
+    "code": 86,
+    "comment": 0,
+    "blank": 6
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/components/paymentPage/payments.tsx": {
+    "language": "TypeScript JSX",
+    "code": 40,
+    "comment": 0,
+    "blank": 3
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/components/paymentPage/paymentOptions/addPayments.tsx": {
+    "language": "TypeScript JSX",
+    "code": 80,
+    "comment": 0,
+    "blank": 6
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/images/mainImages/customers.svg": {
+    "language": "XML",
+    "code": 3,
+    "comment": 0,
+    "blank": 1
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/components/headerPage/header.tsx": {
+    "language": "TypeScript JSX",
+    "code": 40,
+    "comment": 0,
+    "blank": 2
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/components/dealPage/deal.tsx": {
+    "language": "TypeScript JSX",
+    "code": 41,
+    "comment": 0,
+    "blank": 4
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/components/customerPage/customers.tsx": {
+    "language": "TypeScript JSX",
+    "code": 74,
+    "comment": 0,
+    "blank": 11
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/assets/react.svg": {
+    "language": "XML",
+    "code": 1,
+    "comment": 0,
+    "blank": 0
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/components/customerPage/customersTypes/societyPerson.tsx": {
+    "language": "TypeScript JSX",
+    "code": 20,
+    "comment": 0,
+    "blank": 2
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/components/customerPage/customersTypes/individualPerson.tsx": {
+    "language": "TypeScript JSX",
+    "code": 38,
+    "comment": 0,
+    "blank": 3
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/components/asidePage/aside.tsx": {
+    "language": "TypeScript JSX",
+    "code": 42,
+    "comment": 0,
+    "blank": 4
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/components/customerPage/customersTypes/naturalPerson.tsx": {
+    "language": "TypeScript JSX",
+    "code": 36,
+    "comment": 0,
+    "blank": 4
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/App.tsx": {
+    "language": "TypeScript JSX",
+    "code": 32,
+    "comment": 0,
+    "blank": 3
+  },
+  "file:///c%3A/Users/%D0%92%D0%B0%D0%BD%D1%8F/self-employment-front/src/components/documentPage/documents.tsx": {
+    "language": "TypeScript JSX",
+    "code": 11,
+    "comment": 0,
+    "blank": 2
+  }
+}
