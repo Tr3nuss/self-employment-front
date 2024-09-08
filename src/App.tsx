@@ -11,8 +11,15 @@ import { PaymentPage } from "./components/paymentPage/payments";
 import { AddPayments } from "./components/paymentPage/paymentOptions/addPayments";
 import { MainPage } from "./mainPage/mainPage";
 import { DocumentsPage } from "./components/documentPage/documents";
+import { LostConnectionPagе } from "./pages/lostConnection/lostConnectionPage";
+import { useNavigate } from "react-router-dom";
 
 function App() {
+  const navigate = useNavigate();
+  window.addEventListener("offline", () => {
+    navigate("/lost_connection");
+  });
+
   return (
     <>
       <Routes>
@@ -29,6 +36,7 @@ function App() {
         </Route>
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/recpass" element={<RecPasswordPage />} />
+        <Route path="/lost_connection" element={<LostConnectionPagе />} />
       </Routes>
     </>
   );
